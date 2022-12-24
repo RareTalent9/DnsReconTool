@@ -1,0 +1,11 @@
+This tool will resolve the listed resoruce records for any domain
+(A,AAA,SOA,PTR,NS,MX,TXT)
+
+Commands to use the tool:
+
+simply setup python environment on your machine and execute the script
+if you want to resolve A record use -d flag and specify the domain name
+python3 target.py -d <domain name>
+
+and if you want to resolve all the records use the flag -reconall
+python3 target.py -d <domain name> -reconall
